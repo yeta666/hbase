@@ -1,0 +1,192 @@
+* {
+	font-family: "微软雅黑";
+}
+
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-wordpress.sk-spinner {
+	background-color: #bdc3c7;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	position: relative;
+	-webkit-animation: sk-innerCircle 1s linear infinite;
+	animation: sk-innerCircle 1s linear infinite;
+}
+
+.sk-spinner-wordpress .sk-inner-circle {
+	display: block;
+	background-color: #ffffff;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	border-radius: 8px;
+	top: 5px;
+	left: 5px;
+}
+
+@-webkit-keyframes sk-innerCircle {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes sk-innerCircle {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+
+/*---------------------------------------
+	Main Navigation             
+-----------------------------------------*/
+
+.navbar-default {
+	padding: 18px 0;
+	border: none;
+	margin-top: 62px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	padding-top: 6px;
+}
+
+.navbar-default .navbar-brand .fa {
+	color: #000;
+	font-size: 42px;
+}
+
+.navbar-default .navbar-brand span {
+	font-size: 42px;
+	margin-left: 42px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #777;
+	font-size: 16px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+.navbar-default .navbar-nav>li a:hover {
+	color: lightcoral; !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #777;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav .active>a {
+	color: lightcoral;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: lightcoral;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+	padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background: #bdc3c7;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+
+/*---------------------------------------
+	Home section              
+-----------------------------------------*/
+
+#home {
+	background-size: cover;
+	background-position: center center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+/*---------------------------------------
+   Footer section              
+-----------------------------------------*/
+
+footer {
+    border-top: 1px solid #f0f0f0;
+    padding: 100px 0px;
+    position: relative;
+}
+
+footer .col-md-3 .fa {
+  font-size: 42px;
+}
+
+footer a {
+  color: #555;
+}
+
+footer hr {
+  border-color: #ffffff;
+  margin-top: 42px;
+  margin-bottom: 22px;
+}
+
+footer .footer-copyright {
+  padding-top: 16px;
+}

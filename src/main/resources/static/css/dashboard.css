@@ -1,0 +1,38 @@
+/*---------------------------------------
+			    Select Box             
+			-----------------------------------------*/
+
+.selectBox {
+	padding-top: 200px;
+}
+
+.selectBox ul {
+	border-bottom: none;
+}
+
+.selectBox ul li {
+	float: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.selectBox ul li a {
+	color: #777;
+}
+
+
+/*---------------------------------------
+			    Loading             
+			-----------------------------------------*/
+
+.loading {
+	background: url(../img/loading.gif) no-repeat center;
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 140px;
+	display: none;
+	z-index: 99999;
+	background-color: #fff;
+}

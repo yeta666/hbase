@@ -1,0 +1,51 @@
+id
+基本信息
+	品牌
+	车系
+	车型名称
+	年款	      date
+	厂商指导价    number
+	厂商
+	
+
+基本属性
+	级别
+	长（mm）宽高   number
+	车身结构
+	车门数	      number
+	座位数		num
+	变速箱（自动、手动）
+
+性能属性
+	排量
+	最高车速
+	0-100KM加速（s）
+	发动机
+	油箱容积
+	气缸数
+	供油方式
+
+按品牌查找（列表）
+按价格查找（区间）
+座位数（输入）
+
+数据清洗：
+多字段无值的数据
+多字段值设置为“-”的数据
+size_: "0*0*0" -> 未知
+car_structure: "-" -> 未知
+car_doors: "-" -> 未知
+car_seats: "-" -> 未知
+gearbox_: "-" -> 未知
+max_speed: "-" -> 未知
+0_100_acceleration_capability: "-" -> 未知
+0_100_acceleration_capability: "" -> 未知
+oil_tank_capacity: "-" -> 未知
+car_cylinders: "-" -> 未知
+oli_drive: "-" -> 未知
+
+
+
+
+
+

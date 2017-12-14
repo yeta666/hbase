@@ -1,0 +1,81 @@
+/*---------------------------------------
+			    Select Box             
+			-----------------------------------------*/
+
+.selectBox {
+	padding-top: 200px;
+}
+
+.selectBox ul {
+	border-bottom: none;
+}
+
+.selectBox ul li {
+	float: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.selectBox ul li a {
+	color: #777;
+}
+
+
+/*---------------------------------------
+			    Search Box             
+			-----------------------------------------*/
+
+.searchBox {
+	height: 100px;
+	padding-top: 33px;
+}
+
+.searchBox .menuUl {
+	padding: 0;
+	border: 0;
+}
+
+.searchBox #provinceMenu,
+.searchBox #cityMenu,
+.searchBox #regionMenu,
+.searchBox .menuUl,
+.searchBox #searchBtn {
+	width: 100%;
+}
+
+.searchBox .cityBox,
+.searchBox .regionBox {
+	visibility: hidden;
+}
+
+
+/*---------------------------------------
+			    Loading             
+			-----------------------------------------*/
+
+.loading {
+	background: url(../img/loading.gif) no-repeat center;
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 140px;
+	display: none;
+	z-index: 99999;
+	background-color: #fff;
+}
+
+
+/*---------------------------------------
+			    Display Box             
+			-----------------------------------------*/
+
+.displayBox {
+	height: 550px;
+	width: 100%;
+}
+
+.displayBox>div {
+	height: 100%;
+	width: 100%;
+}

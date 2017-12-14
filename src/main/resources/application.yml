@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  context-path: /hbase
+#spring:
+#  datasource:
+#    username: root
+#    password: yeta
+#    url: jdbc:mysql://localhost:3306/hbase_car_config?useUnicode=true&characterEncoding=utf-8
+#    driver-class-name: com.mysql.jdbc.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: none
